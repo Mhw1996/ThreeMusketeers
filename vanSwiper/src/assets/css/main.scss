@@ -1,0 +1,36 @@
+.router{
+  color: red;
+  span{
+    font-size: 100px;
+  }
+}
+
+
+.van-tabs {
+  height: 0.9rem; 
+  
+  .van-tabs__wrap {
+        height: 0.9rem; 
+    }
+  .van-tab {
+    line-height: 0.9rem;
+    padding: 0 0.28rem;
+  }
+}
+
+.van-tabs__wrap--scrollable .van-tabs__nav--complete{
+  padding-left: 0;
+}
+
+.vant_custom {
+  .van-tabs__wrap--scrollable {
+      .van-tabs__nav--complete {
+          padding-left: 0.08rem;
+          padding-right: 0.08rem;
+      }       
+  }
+  .van-tab{
+      flex-basis: unset !important;
+  }
+
+}
